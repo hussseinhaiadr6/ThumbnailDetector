@@ -1,27 +1,28 @@
-# Thubmnail extractor
+# Thumbnail Extractor
 
-This model is YOLO V8 algorithm trained on hand tailored datastet to detected Blueprints of photo inside a PDF
-It a full pipeline that takes a PDF and ouptut a directory structure where each page contain all the detected blueprints in the page
+This project implements a **thumbnail extraction pipeline** using the **YOLOv8 algorithm**, trained on a custom, hand-tailored dataset to detect blueprints inside a PDF. The pipeline processes a PDF and outputs a directory structure where each page contains all the detected blueprints.
+
+---
 
 ## Table of Contents
-
 - [Installation](#installation)
 - [Usage](#usage)
 
-
+---
 
 ## Installation
 
-Git clone the repository 
+ **Clone the Repository**  
+   Use Git to clone the project repository:
+   ```bash
+   git clone https://github.com/hussseinhaiadr6/Thumbnail_Extractor.git
+      ```
+## install dependency
+   ```bash
 pip install -r requirements.txt
+   ```
+## Running code 
 
-## Usage
-
-Open the pipline.py file 
-change the input filename variable to specify the path to thepdf you want to process
-
-python pipeline.py
-
-
-
-
+   ```bash
+Pyhton Pipline.py
+   ```
